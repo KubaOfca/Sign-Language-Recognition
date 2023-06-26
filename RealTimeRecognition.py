@@ -26,7 +26,7 @@ def classify(image):
 
 
 
-model = tf.keras.models.load_model(r'/home/jakub/Desktop/projekt_AI/augmented_model_20ep.h5')
+model = tf.keras.models.load_model(r'/home/jakub/Desktop/projekt_AI/third_augmented_model_20ep.h5')
 
 cap = cv2.VideoCapture(0)
 
